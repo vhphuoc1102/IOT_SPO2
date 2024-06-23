@@ -4,8 +4,11 @@
 
 typedef void (*mrender)(Adafruit_ILI9341 &tft);
 
+// Uncomment this to change the initialization for different LCD versions
+
 // Adafruit_ILI9341 tft = Adafruit_ILI9341(TFT_CS, TFT_DC, TFT_MOSI, TFT_CLK, TFT_RST, TFT_MISO);
 Adafruit_ILI9341 tft = Adafruit_ILI9341(TFT_CS, TFT_DC);
+
 const std::map<int, mrender> mMap = {
     {-1, displayMSetting},
     {0, displayMIntro},

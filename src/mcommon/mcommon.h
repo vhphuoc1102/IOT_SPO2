@@ -3,6 +3,8 @@
 #include <Adafruit_ILI9341.h>
 #include <Adafruit_GFX.h>
 
+// Uncomment this to change the PINs for different LCD versions
+
 #define BTN_SETTING 32
 #define BTN_NAV_1 33
 #define BTN_NAV_2 25
