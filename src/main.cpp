@@ -44,4 +44,3 @@ void loop()
 {
   mMap.at(idx)(tft);
 }
-s
